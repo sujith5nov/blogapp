@@ -1,0 +1,27 @@
+<%- include("./partials/header.ejs") %>
+
+  
+    <section>
+        <h2>Create a New Post</h2>
+        <form action="/compose" method="POST">
+            <input type="text" name="title" class="title input" placeholder="Title" required>
+            <textarea name="content" id="postContent" placeholder="Enter your post content"></textarea>
+            <input name="author" class="author input" placeholder="Enter author name"></input>
+            <input id="submit" type="submit" value="Create Post">
+        </form>
+    </section>
+
+    <section id="postSection">
+        <h2>Your Posts</h2>
+        <ul id="postList">
+            <% blogPosts.forEach(post=> { %>
+                <li>
+                    <a href="/post/<%= post.id %>">
+                        <%= post.title %>
+                    </a>
+                </li>
+                <% }); %>
+        </ul>
+    </section>
+<br>
+    <%- include("./partials/footer.ejs") %>
