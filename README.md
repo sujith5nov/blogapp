@@ -1,1 +1,1 @@
-# blogapp
+# blogPost
