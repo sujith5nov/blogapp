@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    flex:display;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 5vmin;
+    flex: 1 0 auto;
+    color: #007bff;
+    font-size: 3.5rem;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    border-radius: 15px;
+    margin: 5vmin;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+
+}
+.new{
+    color: rgb(16, 16, 16);
+    box-sizing: none;
+    border: none;
+}
+h2{
+    text-align: center;
+    padding: 5vmin;
+    flex: 1 0 auto;
+    color: #007bff;
+    font-size: 3.5rem;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    border-radius: 15px;
+    margin: 5vmin;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+form{
+    display:contents;
+    flex-direction:column;
+    background-color: #0077cc;
+    margin: 10vmin;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    padding: 20px;
+}
+.nav-link{
+   margin: 0;
+   padding: 0;
+  width: 100%;
+  height: auto;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#submit{
+    width: 10%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #12da5b;
+    border-radius: 5px;
+
+}
+header{
+    background-color: #22ab9f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+section{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+h2 {
+    color: #333;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  a:hover {
+    text-decoration:dotted;
+  }
+ .input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+ 
+ }
+ textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  p {
+    line-height: 1.6;
+  }
+  footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
